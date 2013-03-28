@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94b30493-55b2-4e0b-8bd1-c8d4b03ded95" name="Default" comment="">
+    <list default="true" id="94b30493-55b2-4e0b-8bd1-c8d4b03ded95" name="Default" comment="+ formidable">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
@@ -11,7 +12,7 @@
     <file path="/server.js" changelist="94b30493-55b2-4e0b-8bd1-c8d4b03ded95" time="1364390836590" ignored="false" />
     <file path="/router.js" changelist="94b30493-55b2-4e0b-8bd1-c8d4b03ded95" time="1364458703095" ignored="false" />
     <file path="/requesthandlers.js" changelist="94b30493-55b2-4e0b-8bd1-c8d4b03ded95" time="1364458780071" ignored="false" />
-    <file path="/Dummy.txt" changelist="94b30493-55b2-4e0b-8bd1-c8d4b03ded95" time="1364495827805" ignored="false" />
+    <file path="/Dummy.txt" changelist="94b30493-55b2-4e0b-8bd1-c8d4b03ded95" time="1364496050638" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="94b30493-55b2-4e0b-8bd1-c8d4b03ded95" time="1364415059818" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
       <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="27" selection-start="67" selection-end="67" vertical-scroll-proportion="0.03219697">
+            <state line="26" column="2" selection-start="800" selection-end="800" vertical-scroll-proportion="0.8371212">
               <folding />
             </state>
           </provider>
@@ -271,7 +272,11 @@
       <created>1364495834364</created>
       <updated>1364495834364</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="+ formidable">
+      <created>1364495970847</created>
+      <updated>1364495970847</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -296,10 +301,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="939" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29065302" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29065302" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277849" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -492,7 +497,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="67" selection-end="67" vertical-scroll-proportion="0.03219697">
+        <state line="26" column="2" selection-start="800" selection-end="800" vertical-scroll-proportion="0.8371212">
           <folding />
         </state>
       </provider>
