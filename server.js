@@ -1,4 +1,5 @@
-var http = require("http");
+var formidable = require("formidable"),
+    http = require("http"),
     url = require("url");
 
 
