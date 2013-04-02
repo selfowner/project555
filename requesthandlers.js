@@ -1,25 +1,24 @@
-var querystring = require("querystring");
+var querystring = require('querystring'),
+    fs = require("fs");
 
-function start(response, postData)
-    {
-        console.log("Request handler 'start' was called.");
-        {
-            var body = '<html>'+
-                '<head>'+
-                '<meta http-equiv="Content-Type" content="text/html; '+
-                'charset=UTF-8" />'+
-                '</head>'+
-                '<body>'+
-                '<form action="/upload" method="post">'+
-                '<textarea name="text" rows="20" cols="60"></textarea>'+
-                '<input type="submit" value="Submit text" />'+
-                '</form>'+
-                '</body>'+
-                '</html>';
-            response.writeHead(200, {"Content-Type": "text/html"});
-            response.write(body);
-            response.end();
+//get postform from file
+fs.readFile('C:\\Users\\W8\\Dropbox\\nodejs\\project555\\requestweb.js',  function (error, data) {
+       if (error) {
+           console.log(error);
+        } else {
+            buf = new Buffer(256);
+            len = buf.write(data.toString(), 0);
         }
+    });
+
+function start(response, postData) {
+        console.log("Request handler 'start' was called.");
+        response.writeHead(200, {"Content-Type": "text/html"});
+        response.write('<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>');
+        response.write(buf.toString('utf8', 0, len));
+        console.log(len + " bytes: " + buf.toString('utf8', 0, len));
+        response.write('</body></html>');
+        response.end();
     }
 
 function upload(response, postData) {
